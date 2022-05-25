@@ -1,0 +1,267 @@
+/* variables */
+
+:root {
+  --light-blue: #D6E6F2;
+  --dark-blue: #769FCD;
+  --alt-black: #1B262C;
+}
+
+
+/* element styles */
+
+body {
+  background: var(--light-blue);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', 'ubuntu';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+
+
+/*navbar style */
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.nav-style {
+  justify-content: center;
+  background-color: var(--alt-black);
+  color: var(--dark-blue);
+}
+
+.nav-link {
+  color: var(--light-blue);
+}
+
+.nav-link:hover {
+  color: var(--dark-blue);
+}
+
+
+/* header styles */
+
+.header {
+  background-color: var(--light-blue);
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.header h1 {
+  color: var(--dark-blue);
+}
+
+.header p {
+  color: var(--dark-blue);
+  font-size: 1.75rem;
+}
+
+
+
+/* profile styles */
+
+.profile {
+  background-color: var(--dark-blue);
+  padding: 7% 15%;
+
+}
+
+.profile a {
+  color: var(--light-blue);
+  text-decoration: none;
+
+}
+
+.profile p {
+  text-align: left;
+}
+
+.profile-pic {
+  height: auto;
+  width: 100%;
+  max-width: 240px;
+}
+
+
+.profile .row>div {
+  margin-bottom: 20px;
+}
+
+/* Education style */
+
+.experiences {
+  padding: 7% 15%;
+}
+
+
+.experience {
+  text-align: left;
+  padding: 20px 20px 0 0;
+}
+
+/* abilities style*/
+
+.abilities {
+  padding: 7% 15%;
+}
+
+.abilities ul>li {
+  min-height: 30px;
+  padding: 3px 0px;
+}
+
+.ability-title {
+  display: inline-block;
+  width: 60%;
+}
+
+.ability-score {
+  float: right;
+}
+
+.abilities ul>li:hover .ability-score .bi {
+  margin-left: 2px;
+}
+
+/* project style */
+
+.projects {
+  padding: 7% 15%;
+}
+
+.project-img {
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.content-img {
+  position: relative;
+  margin: 50px auto;
+  width: 300px;
+  height: 170px;
+  padding: 0;
+}
+
+.content-img div {
+  text-align: center;
+  line-height: 300px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+  background: var(--alt-black);
+  color: var(--light-blue);
+}
+
+.content-img:hover div {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+/* contact styles */
+
+.contact {
+  padding: 2% 15%;
+}
+
+.contact .h2-light {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.contact a {
+  width: 120%;
+  display: block;
+  line-height: 25px;
+  opacity: 0.6;
+  padding: 25px;
+  margin: 25px 0;
+  text-decoration: none;
+  color: var(--light-blue);
+}
+
+.contact a:hover {
+  opacity: 1;
+}
+
+
+
+
+/* class styles */
+
+.background-dark {
+  background-color: var(--dark-blue);
+}
+
+.background-black {
+  background-color: var(--alt-black)
+}
+
+.h2-light {
+  text-align: center;
+  padding-bottom: 50px;
+  color: var(--light-blue);
+}
+
+.h3-light {
+  color: var(--light-blue);
+  text-align: left;
+  margin: 33px auto;
+}
+
+.hr-light {
+  color: var(--light-blue);
+}
+
+.h2-dark {
+  text-align: center;
+  color: var(--dark-blue);
+  padding-bottom: 50px;
+}
+
+.h3-dark {
+  color: var(--dark-blue);
+  margin: 33px auto;
+}
+
+.hr-dark {
+  color: var(--dark-blue);
+}
+
+.bi-star-fill {
+  color: var(--light-blue);
+}
+
+
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
