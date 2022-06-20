@@ -61,9 +61,6 @@ h4 {
   color: var(--dark-blue);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: var(--dark-blue);
-}
 
 /* header styles */
 
@@ -164,14 +161,13 @@ h4 {
 .content-img {
   position: relative;
   margin: 50px auto;
-  width: 300px;
-  height: 170px;
+  width: 500px;
+  height: 300px;
   padding: 0;
 }
 
 .content-img div {
   text-align: center;
-  line-height: 300px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -186,6 +182,7 @@ h4 {
   visibility: visible;
   opacity: 0.8;
 }
+
 
 /* contact styles */
 
